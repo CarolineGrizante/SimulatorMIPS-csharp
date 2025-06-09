@@ -36,5 +36,11 @@ O projeto é dividido em duas partes principais:
 - Lógica do simulador: Contém toda a implementação do funcionamento interno da arquitetura MIPS (registradores, memória, instruções, etc.).
 
 ---
+## 🚀 Como executar
+
+1. Clone esse repositório:
+
+```bash
+git clone https://github.com/CarolineGrizante/SimulatorMIPS-csharp.git
 
 
