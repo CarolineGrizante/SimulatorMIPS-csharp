@@ -26,7 +26,29 @@ Este é um simulador MIPS desenvolvido em C# com interface gráfica WPF, inspira
 
 ## 📸 Capturas de Tela
 
-> *(Adicione aqui algumas imagens do simulador em execução)*
+### ⚙️ Simulação 
+
+*Visualização da interface do Simulador*  
+![Simulador Inicial](ImagesMIPS/MIPS-1.png)
+
+*Dados em texto carregados*  
+![dados.txt](ImagesMIPS/MIPS-2.png)
+
+*Vizualização dos Registradores*  
+![Simualação](ImagesMIPS/MIPS-3.png)
+
+---
+
+### 🌀 Animações (GIFs)
+
+*Dados em texto carregados*  
+![dados.txt](ImagesMIPS/MIPS-4.gif)
+
+*Mudança do Clock*  
+![Clock](ImagesMIPS/MIPS-5.gif)
+
+*Vizualização da Memória*  
+![Simulação da Memória](ImagesMIPS/MIPS-6.gif)
 
 ---
 
