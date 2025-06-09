@@ -1,0 +1,39 @@
+addi $t1, $zero, 5
+addi $t2, $zero, 10
+addi $t4, $zero, 20
+addi $t5, $zero, 15
+addi $t7, $zero, 3
+addi $s1, $zero, 100
+addi $s2, $zero, 200
+addi $s3, $zero, 300
+addi $t6, $zero, 50
+addi $t0, $zero, 0
+addi $t3, $zero, 0
+addi $s0, $zero, 0
+addi $s4, $zero, 7
+addi $s5, $zero, 2
+addi $s6, $zero, 0
+addi $s7, $zero, 1
+addi $ra, $zero, 4096
+add $t0, $t1, $t2
+sub $t3, $t4, $t5
+addi $t6, $t7, 10
+lw $s0, 0($s1)
+sw $s2, 4($s3)
+lhu $t1, 2($t2)
+sh $t3, 6($t4)
+lb $t5, 1($t6)
+and $t7, $t0, $t1
+or $s0, $s1, $s2
+nor $s3, $s4, $s5
+ori $s6, $s7, 15
+sll $t0, $t1, 2
+srl $t2, $t3, 1
+beq $t4, $t5, 20
+bne $t6, $t7, 16
+slt $s0, $s1, $s2
+sltu $s3, $s4, $s5
+sltiu $s6, $s7, 30
+j 1024
+jr $ra
+jal 2048
